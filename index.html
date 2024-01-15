@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Air Temperature Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Temperature</h1>
+
+      <div class="tempDiv">
+        <label for="">Celsius</label>
+        <input
+          onchange="calcTemp(event)"
+          type="number"
+          name="celsius"
+          id="celsius"
+          class="tempInput"
+          placeholder="What is the temperature?"
+        />
+      </div>
+      <div class="tempDiv">
+        <label for="">Fahrenheit</label>
+        <input       onchange="calcTemp(event)"
+          type="number"
+          name="fahrenheit"
+          id="fahrenheit"
+          class="tempInput"
+          placeholder="What is the temperature?"
+        />
+      </div>
+      <div class="tempDiv">
+        <label for="">Kelvin</label>
+        <input       onchange="calcTemp(event)"
+          type="number"
+          name="kelvin"
+          id="kelvin"
+          class="tempInput"
+          placeholder="What is the temperature?"
+        />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
